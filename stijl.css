@@ -1,11 +1,13 @@
-body{
-  background-image: url(Afbeeldingen/frontimage.jpg);µ
+.homepage{
+  background-image: url(Afbeeldingen/frontimage.jpg);
+  width: 100vw;
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size:  cover;
   background-attachment: fixed;
-  background-color: rgba(255, 255, 255, 0.5);
-  background-blend-mode: color-dodge;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: color-dodge;*/
 }
 
 .menubalk{
@@ -26,25 +28,27 @@ h1{
   color: white;
 }
 
-/*.collagebalk{
-  width: 150rem;
-  height: 25rem;
-  background-color: #FF674D;
-  position: fixed;
-  top: 5rem;
-  right: 5rem;
-  transform: rotate(30deg);
-  overflow: hidden;
-}*/
-
 h2{
   font-family: helvetica;
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: bold;
   position: relative;
-  top: 1rem;
+  top: 2rem;
   left: 3rem;
+}
+
+.header{
+  position: relative;
+  left: 57rem;
+  top: 10rem;
+}
+
+.ondertekst{
+  position: relative;
+  top: 7rem;
+  left: 59rem;
+
 }
 
 h3{
@@ -198,7 +202,7 @@ img{
 }
 
 img:last-child {
-      display: none;}
+  display: none;}
 
 .photograph{
   position: relative;
@@ -224,43 +228,68 @@ p{
 /*About me*/
 
 .paneel1{
-  background-color: #D8EDF5;
   height: 10rem;
-  width: 50rem;
+  width: 70rem;
   position: absolute;
   top: 40rem;
   left: -10rem;
   text-align: right;
   font-family: helvetica;
   text-transform: uppercase;
+  background-image: linear-gradient(-135deg,  #D8EDF5 0%,#E8F3EE 50%,#D8EDF5 100%);
 }
 
 .paneel2{
-  background-color: #F8F7F2;
   height: 10rem;
-  width: 50rem;
+  width: 70rem;
   position: absolute;
-  top: 70rem;
+  top: 50rem;
   left: 50rem;
   font-family: helvetica;
   text-transform: uppercase;
+  background-image: linear-gradient(-135deg,  #D8EDF5 0%,#E8F3EE 50%,#D8EDF5 100%);
 }
 
 .personal {
-  color: white;
+  color: black;
   position: relative;
-  bottom: 5rem;
-  right: 5rem;
+  bottom: 6rem;
+  right: 55.5rem;
 }
 
-
-.schoollife {
-  color: white;
+.schoollife{
+  color: black;
   position: relative;
-  bottom: 5rem;
-  right: 1rem;
+  bottom: 6rem;
+  right: 63rem;
 }
 
-.tekst2{
+.tekst1{
+  position: relative;
+  top: 22rem;
+  right: 53rem;
+  font-size: 0.5rem;
+  text-transform: none;
+}
 
+.tekt2 {
+  color: black;
+  position: relative;
+  top: 22rem;
+  right: 53rem;
+  font-size: 0.5rem;
+  text-transform: none;
+}
+
+/*contact*/
+iframe {
+  margin-left: -10px;
+}
+
+.kader {
+  margin: 1rem auto;
+  overflow: hidden;
+  width: 610px;
+  height: 590px;
+  top: -3rem;
 }
